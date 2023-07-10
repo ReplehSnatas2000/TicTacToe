@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Martian+Mono:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav>
+        <span class="nav">Welcome to my Tic Tac Toe game</span>
+    </nav>
+    <div class="gameContainer">
+        <div class="container">
+            <div class="line"></div>
+            <div id="0" class="box bt-0 bl-0"><img src="circle.png" id="play" alt="Circle" class="imgnone"></div>
+            <div id="1" class="box bt-0"><img src="circle.png" id="play" alt="Circle" class="imgnone"></div>
+            <div id="2" class="box bt-0 br-0"><img src="circle.png" id="play" alt="Circle" class="imgnone"></div>
+            <div id="3" class="box bl-0"><img src="circle.png" id="play" alt="Circle" class="imgnone"></div>
+            <div id="4" class="box"><img src="circle.png" id="play" alt="Circle" class="imgnone"></div>
+            <div id="5" class="box br-0"><img src="circle.png" id="play" alt="Circle" class="imgnone"></div>
+            <div id="6" class="box bb-0 bl-0"><img src="circle.png" id="play" alt="Circle" class="imgnone"></div>
+            <div id="7" class="box bb-0"><img src="circle.png" id="play" alt="Circle" class="imgnone"></div>
+            <div id="8" class="box bb-0 br-0"><img src="circle.png" id="play" alt="Circle" class="imgnone"></div>
+        </div>
+        <div class="gameInfo">
+            <span class="info">Turn for X</span>
+            <div class="imgBox">
+                <img src="excited.gif" alt="Win">
+            </div>
+            <button id="reset" type="button">Reset Game</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
