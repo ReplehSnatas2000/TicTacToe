@@ -120,6 +120,26 @@ nav {
     display: none;
 }
 
+footer {
+    background-color: rgb(8, 8, 41);
+    height: 10vh;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer {
+    padding: 23px 122px;
+}
+
+.footer>div {
+    color: white;
+}
+
+main {
+    position: relative;
+}
+
 @media (max-width:500px) {
     .gameContainer {
         flex-direction: column;
@@ -134,5 +154,21 @@ nav {
 
     .info {
         font-size: 15vw;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 0;
     }
 }
